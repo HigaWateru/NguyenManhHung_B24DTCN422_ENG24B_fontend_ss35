@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.modal-body input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.filterHeader{
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+    justify-content: flex-end;
+}
+.filterHeader select{
+    padding: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.filterHeader .search{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.filterHeader .search input[type="text"]{
+    width: 230px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+.filterHeader .search ion-icon{
+    cursor: pointer;
+    font-size: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+th{
+    font-weight: 400;
+    text-align: left;
+    padding: 8px;
+    font-size: 14px;
+}
+th:last-child{
+    text-align: center;
+}
+td{
+    font-weight: 500;
+}
+.active{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgba(172, 255, 47, 0.37);
+    padding: 0 5px 3px;
+}
+.active li{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(47, 255, 193);
+}
+.unactive{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgba(241, 65, 65, 0.307);
+    padding: 0 5px 3px;
+}
+.unactive li{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ff0000;
+}
+.opsion{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.opsion button{
+    background-color: transparent;
+    border: none;
+}
+ion-icon{
+    cursor: pointer;
+    font-size: 20px;
+}
+.delete{
+    color: red;
+}
+.edit{
+    color: darkorange;
+}

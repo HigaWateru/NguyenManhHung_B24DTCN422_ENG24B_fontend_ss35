@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btn{
+    padding: 10px;
+    width: 100%;
+}
+.name, .position{
+    width: calc(50% - 13px);
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+}
+input {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+    outline: none;
+}
+
+button {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.pagination button{
+    background-color: white;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+button:disabled {
+    color: #00d0ff;
+    border: 1px solid #00d0ff;
+    cursor: none;
+    pointer-events: none;
+}
+
+.pagination span button {
+    background-color: white;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    margin-left: 10px;
+}
+
+.pagination span button.active {
+    background-color: #007bff;
+    color: white;
+}

@@ -1,0 +1,13 @@
+body{
+    padding: 30px;
+}
+.cardList{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 285px;
+    height: 215px;
+}
